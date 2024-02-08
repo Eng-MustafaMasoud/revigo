@@ -162,9 +162,12 @@ function PageHome() {
 
 
 {/*new section 1 */}
+<div className="px-8 flex flex-col gap-16">
+
 <NewSectionHero2/>
 <NewSectionHero3/>
 <NewSectionHero4/>
+</div>
 <NewSectionHero5/>
         {/* SECTION 1 */}
         {/* <SectionSliderNewCategories categories={DEMO_CATS} />

@@ -92,7 +92,7 @@ const DisCards = [
  
 ];
 const NewSectionHer5 = () => {
-  return <section className="flex flex-col items-center justify-center bg-gray-100 px-8 py-6">
+  return <section className="flex flex-col items-center justify-center bg-gray-100 px-8 py-6 rounded-lg">
     <h2>وجهات سياحية عالمية</h2>
     <h3>  اكتشف اشهر الوجهات السياحية حول العالم</h3>
     <div className="grid grid-cols-5 gap-4 mt-6 bg-white">

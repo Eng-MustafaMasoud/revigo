@@ -54,12 +54,12 @@ const hotelsExamples = [
 ];
 const NewSectionHero4 = () => {
   return (
-    <section className=" rounded-lg flex flex-col items-center py-8 gap-8 w-full justify-between">
+    <section className=" rounded-lg flex flex-col items-center py-8 gap-8 w-full justify-between ">
       <div className="flex flex-col justify-center w-full items-center">
         <h2 className="text-2xl">فنادق عالمية</h2>
         <h3 className="font-medium">اكتشف أرقى الفنادق حول العالم</h3>
       </div>
-      <div className="grid grid-cols-4 gap-8 justify-between ">
+      <div className="grid grid-cols-4  place-content-between w-full gap-4 ">
         {hotelsExamples.map((modal) => (
           <div className="flex shadow-lg px-8 py-6 gap-4 rounded-lg bg-white w-full ">
             <div className="h-20 w-20 overflow-hidden bg-white rounded-full shadow-md ">
